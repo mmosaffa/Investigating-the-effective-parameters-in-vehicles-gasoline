@@ -1,4 +1,3 @@
-#Question 1, part 1
 set.seed(1)
 x = rnorm(100)
 eps = rnorm(100,0,0.25)
@@ -12,7 +11,6 @@ t= x^2
 lmmodel2 = lm(y~x+t)
 summary(lmmodel2)
 
-#Question 1, part 2
 set.seed(1)
 x = rnorm(100)
 eps = rnorm(100,0,0.05)
@@ -26,7 +24,7 @@ t= x^2
 lmmodel2 = lm(y~x+t)
 summary(lmmodel2)
 
-#Question 2
+
 dim(Auto)
 d = Auto 
 med = median(d$mpg)
